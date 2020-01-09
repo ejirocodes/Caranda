@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier \"src/**/*.{js,html,css}\" --write",
-    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ejiro",
