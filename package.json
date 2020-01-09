@@ -1,0 +1,17 @@
+{
+  "name": "petcarl",
+  "version": "1.0.0",
+  "description": "A pet adoption website",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js,html,css}\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ejiro",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "prettier": "^1.19.1"
+  }
+}
