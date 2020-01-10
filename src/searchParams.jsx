@@ -1,12 +1,24 @@
-import React from 'react';
+import React from "react";
 
-const searchParam = () => {
-    const location = "San Fransisco";
+const SearchParams = () => {
+  const location = "San Fransisco";
 
+  return (
+    <div className="search-params">
+      <form>
+        <label htmlFor="location">
+          Location
+          <input
+            type="text"
+            id="location"
+            value={location}
+            placeholder="location"
+          />
+        </label>
+        <button>Submit</button>
+      </form>
+    </div>
+  );
+};
 
-    return (
-        <div className="search-params">
-
-        </div>
-    )
-}
+export default SearchParams;
