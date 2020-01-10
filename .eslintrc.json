@@ -8,8 +8,8 @@
     "prettier/react"
   ],
   "rules": {
-      "react/props.type": 0,
-      "no-console": 1
+    "react/props.type": 0,
+    "no-console": 1
   },
   "plugins": ["react", "import", "jsx-a11y"],
   "parserOptions": {
@@ -23,5 +23,10 @@
     "es6": true,
     "browser": true,
     "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detected"
+    }
   }
 }
