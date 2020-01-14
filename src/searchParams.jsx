@@ -39,7 +39,7 @@ const SearchParams = () => {
           </select>
         </label>
         <label htmlFor="breed">
-          breed
+          Breed
           <select
             id="breed"
             value={breed}
