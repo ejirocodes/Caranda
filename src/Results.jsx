@@ -7,6 +7,7 @@ const Results = ({ pets }) => {
         <div className="search">
             {pets.length === 0 ? <h1>No Pets Found</h1> : (
                 pets.map(pet => {
+                    return(
                     <Pet
                         animal={pet.type}
                         key={pet.id}
@@ -16,7 +17,8 @@ const Results = ({ pets }) => {
                         location={`${pet.contact.address.city},
                         ${pet.contact.address.state}`}
                         id={pet.id}
-                    />
+                        />
+                    )
                 })
             )}
         </div>
