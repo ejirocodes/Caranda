@@ -7,14 +7,22 @@ class Carousel extends React.Component {
   };
   static getDerivedStateFromProps({ media }) {
     let photos = "http://placecorgi.com/600/600";
+    
     if (media.length) {
       photos = media.map(({ large }) => large);
     }
 
     return { photos };
   }
+
+  handleIndexClick = event => {
+    this.setState({
+      active: +event.target.dataset.index
+    });
+      
+  };
   render() {
-    const [photos, active] = this.state;
+    const { photos, active } = this.state;
 
     return (
       <div className="carousel">
@@ -23,6 +31,8 @@ class Carousel extends React.Component {
           {photos.map((photo, index) => {
             <img
               key={photo}
+              onClick={this.handleIndexClick}
+              data-index={index}
               src={photo}
               className={index === active ? "active" : ""}
               alt="animal thumbnail"
