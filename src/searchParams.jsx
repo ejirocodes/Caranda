@@ -6,7 +6,7 @@ import Results from './Results'
 const SearchParams = () => {
   const [location, updateLocation] = useState("San Franscisco, CA");
   const [breeds, updateBreeds] = useState([]);
-  const [animal, AnimalDropdown] = useDropdown("Animal", "cat", ANIMALS);
+  const [animal, AnimalDropdown] = useDropdown("Animal", "dog", ANIMALS);
   const [breed, BreedDropdown, updateBreed] = useDropdown("Breed", "", breeds);
   const [pets, setPets] = useState([]);
 
@@ -22,6 +22,7 @@ const SearchParams = () => {
   useEffect(() => {
     updateBreeds([]);
     updateBreed("");
+    
     pet.breeds(animal).then(({ breeds: apiBreeds }) => {
       const breedStrings = apiBreeds.map(({ name }) => name);
       updateBreeds(breedStrings);

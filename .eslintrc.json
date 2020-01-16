@@ -30,5 +30,6 @@
     "react": {
       "version": "detected"
     }
-  }
+  },
+  "parser": "babel-eslint"
 }
