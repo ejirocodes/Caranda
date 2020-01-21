@@ -17,7 +17,7 @@ body {
 }
 
 .search-params form {
-  background-color: #12cad6;
+  background-color: #6fb98f;
   width: 360px;
   margin: 0px 25px 0px 0px;
   padding: 35px 15px 15px 15px;
@@ -26,7 +26,7 @@ body {
 }
 
 .search {
-  background-color: #12cad6;
+  background-color: #6fb98f;
   width: 715px;
   padding: 15px;
   border-radius: 9px;
@@ -85,8 +85,8 @@ body {
   text-overflow: ellipsis;
 }
 
-header > a,
-#root > div > h1 {
+header>a,
+#root>div>h1 {
   display: inline-block;
   background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png);
   width: 279px;
@@ -146,7 +146,7 @@ header {
   margin-top: 8px;
 }
 
-.carousel > img {
+.carousel>img {
   max-width: 45%;
   max-height: 400px;
 }
@@ -155,7 +155,7 @@ header {
   width: 50%;
 }
 
-.carousel-smaller > img {
+.carousel-smaller>img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -165,7 +165,7 @@ header {
   border: 2px solid #333;
 }
 
-.carousel-smaller > img.active {
+.carousel-smaller>img.active {
   border-color: #ad343e;
   opacity: 0.6;
 }
@@ -226,7 +226,7 @@ header {
   display: none;
 }
 
-#modal > div {
+#modal>div {
   background-color: white;
   max-width: 500px;
   padding: 15px;
@@ -317,7 +317,7 @@ header {
     float: none;
   }
 
-  .carousel-smaller > img {
+  .carousel-smaller>img {
     width: 60px;
     height: 60px;
   }
