@@ -6,7 +6,7 @@ import Details from "./Details";
 import ThemeContext from './ThemeContext'
 
 const App = () => {
-  const theme = useState('darkblue');
+  const theme = useState("#004445");
   return (
     
       <ThemeContext.Provider value={theme}>

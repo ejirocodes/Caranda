@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
   color: #333;
+  font-family: inherit;
 }
 
 body {
-  background-color: #81a69b;
+  background-color: #d9c148;
   background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-background.png);
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -16,7 +17,7 @@ body {
 }
 
 .search-params form {
-  background-color: #d9c148;
+  background-color: #12cad6;
   width: 360px;
   margin: 0px 25px 0px 0px;
   padding: 35px 15px 15px 15px;
@@ -25,7 +26,7 @@ body {
 }
 
 .search {
-  background-color: #d9c148;
+  background-color: #12cad6;
   width: 715px;
   padding: 15px;
   border-radius: 9px;
